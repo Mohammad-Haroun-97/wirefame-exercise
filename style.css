@@ -1,0 +1,76 @@
+
+*{
+    box-sizing: border-box;
+}
+
+header {
+    background-color: chocolate;
+    
+}
+
+body{padding-left: 180px;
+    padding:20;
+}
+
+#logo{
+    float: left;
+    margin-left: 100px;
+}
+
+
+header nav {
+    
+    /* float: right; */
+
+    margin-left:380px;
+
+}
+
+
+header nav ul li {
+   display: inline-block;
+   
+   padding: 30px;
+}
+ 
+#pic div {
+    display: inline-block;
+    padding: 10px;
+}
+
+#wanted{
+    display: inline-block;
+}
+
+
+#left-colomn{
+    float: left;
+    height: 400px;
+    width: 480px;
+}
+
+
+#right-colomn{
+    float: right;
+    width: 400px;
+    background-color: #f1f1f1;
+    padding: 20px;
+    padding-top: 0;
+}
+
+footer{
+    clear: both;
+    padding: 50px;
+    
+    background-color:green;
+    margin-top: 50px;
+}
+ 
+section{
+    padding: 20px;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
